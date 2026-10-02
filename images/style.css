@@ -1,0 +1,39 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    }
+ header{
+    background-color: burlywood;
+    color: white;
+    padding:20px 40px;
+    }
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:left;
+    }
+    .menu_items{
+    display: flex;
+    gap: 20px;
+    }
+
+    .menu_items a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition:0.3s;
+    }
+
+    .menu_items a:hover{
+    background-color: gold;
+    color: white;
+    border-radius: 5px;
+    }
